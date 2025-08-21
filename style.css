@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #333;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: #70c5ce;
+  border: 3px solid #333;
+  border-radius: 10px;
+}
+
+#restartBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#restartBtn:hover {
+  background: #218838;
+}
